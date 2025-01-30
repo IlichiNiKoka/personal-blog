@@ -9,6 +9,33 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: '回到主页', link: '/' }, // 导航栏的首页链接
+            { text: '算法基础', link: '/Algorithm' },
+            {
+                text: '数据分析',
+                items: [
+                    { text: '数据库原理', link: '/DataAnalysis/DataBase' },
+                ],
+                link: '/DataAnalysis',
+            },
+            {
+                text: '编程语言',
+                items: [
+                    {text: 'Python', link: '/Language/Python' },
+                ],
+                link: '/Language'
+            },
+            {
+                text: '机器学习',
+                items: [
+                    { text: '机器学习数学基础', link: '/MachineLearning/MathematicBasic' },
+                    { text: '机器学习基础', link:'/MachineLearning/MachineLearning' },
+                ],
+                link: '/MachineLearning'
+            },
+            {
+                text: '马克思主义',
+                link: '/Marxism',
+            },
 
         ],
 
