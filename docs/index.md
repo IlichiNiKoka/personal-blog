@@ -5,7 +5,10 @@ layout: home
 hero:
     name: "伊莉奇博客站"
     text: "伊莉奇的技术博客存放地"
-    tagline: 沉舟侧畔千帆过，置之死地而后生。  
+    tagline: 沉舟侧畔千帆过，置之死地而后生。
+    image:
+      src: /logo.jpg
+      alt: logo
 
     actions:
         - theme: brand
@@ -31,8 +34,7 @@ features:
 footer: MIT Licensed | Copyright  © 2025-present Ilichi
 ---
 
-<style>
-:root {
+<style>:root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 

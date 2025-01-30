@@ -1,8 +1,9 @@
 import { defineConfig } from 'vitepress' // 导入VitePress的配置函数
 
 // https://vitepress.dev/reference/site-config
+const base = "/personal-blog/";
 export default defineConfig({
-    base: '/personal-blog/',
+    base,
     title: "伊莉奇博客站", // 设置网站的标题
     description: "伊莉奇的技术博客存放地", // 设置网站的描述
     themeConfig: {
@@ -42,6 +43,9 @@ export default defineConfig({
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/IlichiNiKoka' } // 设置社交链接，GitHub图标和链接
+        ],
+        head: [
+            ["link", { rel: "icon", href: `${base}favicon.ico` }],
         ]
     },
 })
