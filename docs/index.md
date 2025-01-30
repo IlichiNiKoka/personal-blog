@@ -10,7 +10,7 @@ hero:
     actions:
         - theme: brand
           text: 这就开始
-          link: 
+          link: '/Algorithm'
         - theme: alt
           text: 转到Github
           link: 

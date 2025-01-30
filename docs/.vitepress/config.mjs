@@ -15,14 +15,12 @@ export default defineConfig({
                 items: [
                     { text: '数据库原理', link: '/DataAnalysis/DataBase' },
                 ],
-                link: '/DataAnalysis',
             },
             {
                 text: '编程语言',
                 items: [
                     {text: 'Python', link: '/Language/Python' },
                 ],
-                link: '/Language'
             },
             {
                 text: '机器学习',
@@ -30,7 +28,6 @@ export default defineConfig({
                     { text: '机器学习数学基础', link: '/MachineLearning/MathematicBasic' },
                     { text: '机器学习基础', link:'/MachineLearning/MachineLearning' },
                 ],
-                link: '/MachineLearning'
             },
             {
                 text: '马克思主义',
