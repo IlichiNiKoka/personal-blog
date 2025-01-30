@@ -7,7 +7,7 @@ hero:
     text: "伊莉奇的技术博客存放地"
     tagline: 沉舟侧畔千帆过，置之死地而后生。
     image:
-      src: /logo.jpg
+      src: logo.jpg
       alt: logo
 
     actions:

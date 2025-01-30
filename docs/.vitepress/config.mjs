@@ -45,7 +45,7 @@ export default defineConfig({
             { icon: 'github', link: 'https://github.com/IlichiNiKoka' } // 设置社交链接，GitHub图标和链接
         ],
         head: [
-            ["link", { rel: "icon", href: `${base}favicon.ico` }],
+            ["link", { rel: "icon", href: `/favicon.ico` }],
         ]
     },
 })
