@@ -1,5 +1,5 @@
 # 机器学习
 
-## [数学基础](./MathematicBasic)
+## 数学基础
 
-## [机器学习原理](./MachineLearning)
+## 机器学习原理
