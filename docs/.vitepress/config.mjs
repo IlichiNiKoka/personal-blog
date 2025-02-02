@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress' // 导入VitePress的配置函数
+import { defineConfig } from "vitepress"; // 导入VitePress的配置函数
 
 // https://vitepress.dev/reference/site-config
 const base = "/personal-blog/";
@@ -9,43 +9,40 @@ export default defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
-            { text: '回到主页', link: '/' }, // 导航栏的首页链接
-            { text: '算法基础', link: '/Algorithm' },
+            { text: "回到主页", link: "/" }, // 导航栏的首页链接
+            { text: "算法基础", link: "/Algorithm" },
             {
-                text: '数据分析',
+                text: "数据分析",
+                items: [{ text: "数据库原理", link: "/DataAnalysis/DataBase" }],
+            },
+            {
+                text: "编程语言",
+                items: [{ text: "Python", link: "/Language/Python" }],
+            },
+            {
+                text: "机器学习",
                 items: [
-                    { text: '数据库原理', link: '/DataAnalysis/DataBase' },
+                    {
+                        text: "机器学习数学基础",
+                        link: "/MachineLearning/MathematicBasic",
+                    },
+                    {
+                        text: "机器学习基础",
+                        link: "/MachineLearning/MachineLearning",
+                    },
                 ],
             },
             {
-                text: '编程语言',
-                items: [
-                    {text: 'Python', link: '/Language/Python' },
-                ],
+                text: "马克思主义",
+                link: "/Marxism",
             },
-            {
-                text: '机器学习',
-                items: [
-                    { text: '机器学习数学基础', link: '/MachineLearning/MathematicBasic' },
-                    { text: '机器学习基础', link:'/MachineLearning/MachineLearning' },
-                ],
-            },
-            {
-                text: '马克思主义',
-                link: '/Marxism',
-            },
-
         ],
 
-        sidebar: [
-
-        ],
+        sidebar: [],
 
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/IlichiNiKoka' } // 设置社交链接，GitHub图标和链接
+            { icon: "github", link: "https://github.com/IlichiNiKoka" }, // 设置社交链接，GitHub图标和链接
         ],
-        head: [
-            ["link", { rel: "icon", href: `/favicon.ico` }],
-        ]
+        head: [["link", { rel: "icon", href: `/favicon.ico` }]],
     },
-})
+});
